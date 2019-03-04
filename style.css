@@ -1,0 +1,61 @@
+
+.container {
+    position: absolute;
+  width: 500px;
+  
+  }
+  
+  .image {
+    opacity: 0.4;
+    display: block;
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+  .text-reward {
+    box-sizing: content-box;
+    box-shadow: 10px 10px 30px grey;
+    opacity: 1;
+    width: 90%;
+    font-size: 60px;
+    color: #8e5e3e;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    top: 5%;
+    left: 5%;
+    padding: 15px 0;
+    transition: .7s ease;
+  }
+  
+  
+  .titre {
+    position: absolute;
+    width: 100%;
+    font-size: 90px;
+    color: #4c3221;
+    top: 50%;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .money-color {
+    color: #ff471a;
+  }
+ 
+  .container:hover .image{
+    opacity: 1;   
+  }
+  
+  .container:hover .text-reward{
+    opacity: 0;
+  }
+  
+  .container:hover .titre{
+    color: white;
+    font-size: 60px;
+    top: 80%;
+  }
+  
